@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link for CSS and JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Google Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <!-- CSS link-->
+  <link rel="stylesheet" href="/assets/stylesheets/style.css">
+</head>
+<body>
+  <!-- Nav Bar Code -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/index.html">
+      <img src="/assets/images/logo2.png" width="70" height="70" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/training.html">Training</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/campsClinics.html">Camps & Clinics</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/aboutUs.html">About Us</a>
+            <a class="dropdown-item" href="/contactUs.html">Contact Us</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Call Us Today at 999-999-9999</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <div>
+      <h1 class="cu-header">CONTACT US</h1>
+    </div>
+    <div class="cu-intro">
+      <p>Contact us to learn more about the basketball services that we</br> offer. You may contact us 
+      through our contact number, or </br>through the form below</p>
+    </div>
+  
+    <div class="row">
+      <div class="col">
+        <img src="/assets/images/logo2.png" width="500" height="500" alt="">
+      </div>
+      <div class="col">
+        <form>
+          <div class="row">
+            <div class="col">
+              First Name<input type="text" class="form-control">
+            </div>
+            <div class="col">
+              Last Name<input type="text" class="form-control">
+            </div>
+          </div>
+        </form>
+        <form>
+          <div class="row">
+            <div class="col">
+              Email Address<input type="email" class="form-control">
+            </div>
+            <div class="col">
+              Phone<input type="number" class="form-control" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary cu-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

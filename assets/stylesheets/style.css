@@ -1,0 +1,141 @@
+body {
+  background-color: #422b75;
+}
+
+/* Nav Bar styling */
+li {
+  font-size: 25px;
+}
+
+a {
+  font-family: 'Tiro Devanagari Sanskrit',
+  serif;
+}
+.navbar {
+  background-color: #9fcf72;
+  padding: 40px;
+}
+
+.btn {
+  background-color: #422b75 ;
+}
+
+.dropdown-menu {
+  background-color: #422b75;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+/* training page styling */
+.t-header {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+.t-intro {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+.t-row {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-body {
+  color: white;
+  text-align: left;
+}
+
+.card {
+  background-color: black;
+}
+
+.btn-link {
+  color: #9fcf72;
+}
+
+:hover .btn-link {
+  color: white;
+}
+
+/* camps & clinics styling */
+
+.cc-col {
+  padding: 30px;
+}
+
+.cc-header {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+.cc-intro {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+/* Contact Us styling */
+.cu-header {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 70px;
+}
+
+.cu-intro {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+}
+.col {
+  color: white;
+}
+
+.cu-btn {
+  background-color: #9fcf72;
+  color: black;
+  border-color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+:hover .cu-btn {
+  background-color: black;
+  color: #9fcf72;
+  border-color: #9fcf72;
+}
+
+
+
